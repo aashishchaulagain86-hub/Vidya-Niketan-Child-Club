@@ -1,0 +1,65 @@
+body {
+    background-image: url("jptt.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(255,233,155,1);
+    color: black;
+    font-weight: bold;
+}
+
+td {
+    background-color: rgba(255,220,140,1);
+}
+
+#b1 {
+    background-color: red;
+    color: black;
+    padding: 3px 20px;
+    margin-top: 6px;
+    border: 3px solid white;
+}
+
+#b1:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+tr:hover {
+    background-color: rgba(200,150,100,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    

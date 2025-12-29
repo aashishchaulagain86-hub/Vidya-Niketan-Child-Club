@@ -1,0 +1,52 @@
+body{
+    background-image: url("jptt.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: rgba(255,233,155);
+    margin-left: 20px;
+}
+
+.line {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    items-align: center;
+    justify-content: flex-start;
+    height: 140px;
+}
+
+.header #logo {
+    display: block;
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    line-height: 0;
+}
+
+.header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    

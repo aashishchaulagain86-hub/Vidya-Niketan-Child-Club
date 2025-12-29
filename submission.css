@@ -1,0 +1,78 @@
+body {
+    background-image: url('jptt.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1000px;
+    padding: 0 16px;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: rgba(255,233,155,1);
+    margin-top: 5px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.top-bar {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    items-align: center;
+    justify-content: flex-start;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 16px;
+}  
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+}
+
+button{
+    position: fixed;
+    bottom: 20px;
+    background-color: red;
+    border: 3px solid white;
+    color: black;
+    padding: 5px 25px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+    
+
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url("jptt.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    width: 420px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile-header {
+    background-color: #1976d2;
+    color: white;
+    padding: 30px 20px;
+}
+
+.profile-header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.profile-header p {
+    margin-top: 8px;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.profile-body {
+    padding: 25px;
+}
+
+.profile-body h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.role {
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 15px;
+}
+
+.details {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.highlight {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f8ff;
+    border-left: 5px solid #1976d2;
+    font-size: 14.5px;
+    color: #333;
+}
